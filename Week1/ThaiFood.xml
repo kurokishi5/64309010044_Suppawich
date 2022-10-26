@@ -1,7 +1,52 @@
 <Food>
     <ThaiFood>
        <FoodID>001</FoodID>
-       <FoodName>ข้าวผัดปุ</FoodName>
+       <FoodName>ข้าวผัดปู</FoodName>
+       <price>50 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+       <FoodID>002</FoodID>
+       <FoodName>ข้าวมันไก่</FoodName>
+       <price>50 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+       <FoodID>003</FoodID>
+       <FoodName>ข้าวคะน้าหมูกรอบ</FoodName>
+       <price>50 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+       <FoodID>004</FoodID>
+       <FoodName>ข้าวผัดกระเพรา</FoodName>
+       <price>50 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+       <FoodID>005</FoodID>
+       <FoodName>ข้าวหมกไก่</FoodName>
+       <price>50 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+       <FoodID>006</FoodID>
+       <FoodName>ข้าวหมูเเดง</FoodName>
+       <price>50 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+       <FoodID>007</FoodID>
+       <FoodName>ข้าวขาหมู</FoodName>
+       <price>50 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+       <FoodID>008</FoodID>
+       <FoodName>ข้าวผัดรวมมิตร</FoodName>
+       <price>50 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+       <FoodID>009</FoodID>
+       <FoodName>ข้าวเเกงกะหรี่</FoodName>
+       <price>50 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+       <FoodID>010</FoodID>
+       <FoodName>ข้าวราดเเกง</FoodName>
        <price>50 บาท</price>
     </ThaiFood>
 </Food>
