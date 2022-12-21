@@ -5,4 +5,4 @@ let obj = {
     "grade"    :3.45,
     "Tel"      :[0934967237,0937592145]
 }
-console.log(obj.name,obj.grade,obj.Tel[0])
+console.log(obj.name,obj.grade,obj.Tel[0 ])
