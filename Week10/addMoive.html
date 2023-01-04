@@ -18,11 +18,11 @@
     <from id="myForm">
 
     <div class="row">
-        <div class="col">
+        <div class="col-8">
             <label>ชื่อหนัง</label>
             <input type="text" class="form-control" id="movieName">
         </div>
-        <div class="col">
+        <div class="col-4">
             <label>ความยาวหนัง</label>
             <input type="text" class="form-control" id="movieLength">
         </div>
@@ -47,9 +47,10 @@
             <input type="text" class="form-control" id="trailer">
         </div>
     </div>
+    
             <div class="col">
                 <label>รีวิว</label>
-                <input type="text" class="form-control" id="review">
+               <textarea class="form-control" id="review"></textarea>
             </div>
             <div class="row">
             <div class="col">
@@ -77,7 +78,38 @@
                 <input type="text" class="form-control" id="average">
             </div>
         </div>
+            <div class="row">
+            <div class="col">
+                <input class="btn btn-success" aria-label="Close" type="button" value="Submit" onclick="add()">
+            </div>
+        </div>
 </from>
-    </div>  
+    </div> 
+    <script>
+        function add(){
+        let obj = {
+            "id":"",
+            "movieName": document.forms['myForm']['movieName'].value,
+            "movieLength": document.forms['myForm']['movieLength'].value,
+            "directore": document.forms['myForm']['directore'].value,
+            "category": document.forms['myForm']['category'].value,
+            "picture": document.forms['myForm']['picture'].value,
+            "trailer": document.forms['myForm']['trailer'].value,
+            "review": {
+                "review": document.forms['myForm']['review'].value,
+                "score": {
+                    "screenPlay": document.forms['myForm']['screenPlay'].value,
+                    "playing": document.forms['myForm']['playing'].value,
+                    "music": document.forms['myForm']['music'].value,
+                    "actorSkills": document.forms['myForm']['actorSkills'].value,
+                    "graphics": document.forms['myForm']['graphics'].value,
+                    "average": null
+            }
+            }
+        };
+
+        console.log(obj);
+    }
+    </script>
 </body>
 </html>
